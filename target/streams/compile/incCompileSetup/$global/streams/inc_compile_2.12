@@ -1,0 +1,138 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/crispy/Applications/non-hmrc/cats-sandbox/target/scala-2.12/classes
+compile options:
+10 items
+0 -> -encoding
+1 -> UTF-8
+2 -> -deprecation
+3 -> -unchecked
+4 -> -feature
+5 -> -language:higherKinds
+6 -> -Xlint
+7 -> -Xfatal-warnings
+8 -> -Ypartial-unification
+9 -> -Xplugin:/Users/crispy/.ivy2/cache/org.spire-math/kind-projector_2.12/jars/kind-projector_2.12-0.9.3.jar
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.12.3
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+3 items
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> /Users/crispy/Applications/non-hmrc/cats-sandbox/target/scala-2.12/classes/sandbox/Main$.class
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> /Users/crispy/Applications/non-hmrc/cats-sandbox/target/scala-2.12/classes/sandbox/Main$delayedInit$body.class
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> /Users/crispy/Applications/non-hmrc/cats-sandbox/target/scala-2.12/classes/sandbox/Main.class
+binary dependencies:
+3 items
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> /Users/crispy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.3.jar
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> /Users/crispy/.ivy2/cache/org.typelevel/cats-core_2.12/jars/cats-core_2.12-1.0.0-MF.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+3 items
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> sandbox.Main
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> sandbox.Main$
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> sandbox.Main$delayedInit$body
+used names:
+43 items
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> *
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> <byname>
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> <init>
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> <refinement>
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> A
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> Any
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> App
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> B
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> CoflatMap
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> ExecutionContext
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> F
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> Function1
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> Functor
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> Future
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> Implicits
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> Int
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> Main
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> Monad
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> MonadError
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> Nothing
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> Object
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> Option
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> OptionT
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> S
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> T
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> Throwable
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> apply
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> cats
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> catsStdInstancesForFuture
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> concurrent
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> data
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> futureOptionInt
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> global
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> implicits
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> int
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> map
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> optionInt
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> optionT
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> package
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> result1
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> result2
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> sandbox
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> scala
+product stamps:
+3 items
+/Users/crispy/Applications/non-hmrc/cats-sandbox/target/scala-2.12/classes/sandbox/Main$.class -> lastModified(1535119245000)
+/Users/crispy/Applications/non-hmrc/cats-sandbox/target/scala-2.12/classes/sandbox/Main$delayedInit$body.class -> lastModified(1535119245000)
+/Users/crispy/Applications/non-hmrc/cats-sandbox/target/scala-2.12/classes/sandbox/Main.class -> lastModified(1535119245000)
+source stamps:
+1 items
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> hash(7ea1e6a5ac88c9fd4fe3136f14198e0a5cee4817)
+binary stamps:
+3 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1530951661000)
+/Users/crispy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.3.jar -> lastModified(1500979666000)
+/Users/crispy/.ivy2/cache/org.typelevel/cats-core_2.12/jars/cats-core_2.12-1.0.0-MF.jar -> lastModified(1501178967000)
+class names:
+3 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/crispy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.3.jar -> scala.App
+/Users/crispy/.ivy2/cache/org.typelevel/cats-core_2.12/jars/cats-core_2.12-1.0.0-MF.jar -> cats.Functor
+internal apis:
+1 items
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwAgsA6gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAdc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwZf3d+HQABm5vdGlmeXNxAH4ADFdgiCV0AAdyZXN1bHQyc3EAfgAM4mvDTXQABHdhaXRzcQB+AAzqXWpadAANJGFzSW5zdGFuY2VPZnNxAH4ADMdDUF50AAZlcXVhbHNzcQB+AAyUv4HUdAAMYXNJbnN0YW5jZU9mc3EAfgAMoHYs/HQAB29wdGlvblRzcQB+AAzcLPTjdAAOZXhlY3V0aW9uU3RhcnRzcQB+AAxUSfd/dAAMc3luY2hyb25pemVkc3EAfgAMflIkYnQADSRpc0luc3RhbmNlT2ZzcQB+AAzJJjzkdAAEbWFpbnNxAH4ADGfkCu90AAlub3RpZnlBbGxzcQB+AAw1xGz5dAAMaXNJbnN0YW5jZU9mc3EAfgAM3YVyAXQAD2Z1dHVyZU9wdGlvbkludHNxAH4ADAR15IN0AAI9PXNxAH4ADGR79N10AAVjbG9uZXNxAH4ADG45Nxp0AAYkaW5pdCRzcQB+AAzkh8TFdAAETWFpbnNxAH4ADEFDcsJ0AAh0b1N0cmluZ3NxAH4ADBlpbhx0AARhcmdzc3EAfgAMuc5xnnQAAiE9c3EAfgAMJcPGeHQACGdldENsYXNzc3EAfgAM4XFWxHQAAm5lc3EAfgAMdDk09HQAB3Jlc3VsdDFzcQB+AAyi71L/dAACZXFzcQB+AAwlQOaIdAALZGVsYXllZEluaXRzcQB+AAz3RYhsdAACIyNzcQB+AAxgZHVHdAAIZmluYWxpemVzcQB+AAwzPmz0dAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBReHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAMc2FuZGJveC5NYWludXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAnQAGnNjYWxhLmRlcHJlY2F0ZWRPdmVycmlkaW5ndAAQc2NhbGEuZGVwcmVjYXRlZHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBrc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFFMAAlpbmhlcml0ZWRxAH4AUUwAB3BhcmVudHNxAH4AUXhxAH4AcHNxAH4Aa3VxAH4ATAAAAABzcQB+AGt1cQB+AEwAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AFJxAH4AW3VxAH4AXAAAAAFzcgAUeHNidGkuYXBpLkFubm90YXRpb27eDoGi9lwKsgIAAlsACWFyZ3VtZW50c3QAH1tMeHNidGkvYXBpL0Fubm90YXRpb25Bcmd1bWVudDtMAARiYXNlcQB+AHp4cHVyAB9bTHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnQ7UZ2mjzglD3gCAAB4cAAAAAFzcgAceHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudNZFsdgDGxd8AgACTAAEbmFtZXEAfgANTAAFdmFsdWVxAH4ADXhwdAAAdAAqKCJtYWluIHNob3VsZCBub3QgYmUgb3ZlcnJpZGRlbiIsIjIuMTEuMCIpc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ab3QAFGRlcHJlY2F0ZWRPdmVycmlkaW5nc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBvc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCUc3EAfgBeAHEAfgAjdXEAfgBhAAAAAHNxAH4Ah3QABFVuaXRxAH4AjXVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AHp4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AGR0AAVQbGFpbnEAfgA1c3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgCIWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBvc3EAfgCHdAAFQXJyYXlxAH4AjXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgCHdAAGU3RyaW5nc3EAfgCLc3EAfgCOdXEAfgCRAAAAA3NxAH4Ak3QABGphdmFzcQB+AJN0AARsYW5ncQB+AJhzcQB+AGt1cQB+AK8AAAAEc3EAfgCHdAADQXBwcQB+AI1zcQB+AId0AAtEZWxheWVkSW5pdHEAfgCNc3EAfgCHdAAGT2JqZWN0cQB+ALNzcQB+AId0AANBbnlxAH4AjXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAB3NhbmRib3hzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWVsPL+VdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQASi9Vc2Vycy9jcmlzcHkvQXBwbGljYXRpb25zL25vbi1obXJjL2NhdHMtc2FuZGJveC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUfqHmpayIyf1P4xNvFBmOClzuSBc=
+external apis:
+0 items
+source infos:
+1 items
+/Users/crispy/Applications/non-hmrc/cats-sandbox/src/main/scala/sandbox/Main.scala -> 
+AAAAAAAAAAA=
+compilations:
+2 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZWwD5px1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9jcmlzcHkvQXBwbGljYXRpb25zL25vbi1obXJjL2NhdHMtc2FuZGJveC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZWw8v5V1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9jcmlzcHkvQXBwbGljYXRpb25zL25vbi1obXJjL2NhdHMtc2FuZGJveC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==

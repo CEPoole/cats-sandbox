@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="cats-sandbox-build"
+		revision="0.1-SNAPSHOT"
+		extra-scalaVersion="2.10"
+		extra-sbtVersion="0.13"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20180824142121"/>
+	<dependencies>
+		<module organisation="org.scala-sbt" name="global-plugins">
+			<revision name="0.0" status="integration" pubdate="20180824142118" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="default" name="cats-sandbox-build" conf="test, compile, runtime" rev="0.0" rev-constraint-default="0.0" rev-constraint-dynamic="0.0" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.virtual-void" name="sbt-dependency-graph">
+			<revision name="0.9.1" status="release" pubdate="20180717112539" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jrudolph/sbt-dependency-graph" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="Apache License 2.0" url="https://github.com/jrudolph/sbt-dependency-graph/raw/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3752" time="0" location="/Users/crispy/.ivy2/cache/scala_2.10/sbt_0.13/net.virtual-void/sbt-dependency-graph/ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/virtual-void/sbt-dependency-graph_2.10_0.13/0.9.1/sbt-dependency-graph-0.9.1.pom"/>
+				<caller organisation="org.scala-sbt" name="global-plugins" conf="compile" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.0" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
+				<artifacts>
+					<artifact name="sbt-dependency-graph" type="jar" ext="jar" status="no" details="" size="301614" time="0" location="/Users/crispy/.ivy2/cache/scala_2.10/sbt_0.13/net.virtual-void/sbt-dependency-graph/jars/sbt-dependency-graph-0.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/virtual-void/sbt-dependency-graph_2.10_0.13/0.9.1/sbt-dependency-graph-0.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.dwijnand" name="sbt-compat">
+			<revision name="1.2.6" status="release" pubdate="20180210190354" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/dwijnand/sbt-compat" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*)" position="8">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2063" time="0" location="/Users/crispy/.ivy2/cache/scala_2.10/sbt_0.13/com.dwijnand/sbt-compat/ivy-1.2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.dwijnand/sbt-compat/scala_2.10/sbt_0.13/1.2.6/ivys/ivy.xml"/>
+				<caller organisation="net.virtual-void" name="sbt-dependency-graph" conf="default, compile, runtime, master" rev="1.2.6" rev-constraint-default="1.2.6" rev-constraint-dynamic="1.2.6" callerrev="0.9.1" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
+				<artifacts>
+					<artifact name="sbt-compat" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2526" time="0" location="/Users/crispy/.ivy2/cache/scala_2.10/sbt_0.13/com.dwijnand/sbt-compat/srcs/sbt-compat-1.2.6-sources.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.dwijnand/sbt-compat/scala_2.10/sbt_0.13/1.2.6/srcs/sbt-compat-sources.jar"/>
+					</artifact>
+					<artifact name="sbt-compat" type="jar" ext="jar" status="no" details="" size="66418" time="0" location="/Users/crispy/.ivy2/cache/scala_2.10/sbt_0.13/com.dwijnand/sbt-compat/jars/sbt-compat-1.2.6.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.dwijnand/sbt-compat/scala_2.10/sbt_0.13/1.2.6/jars/sbt-compat.jar"/>
+					</artifact>
+					<artifact name="sbt-compat" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="444960" time="0" location="/Users/crispy/.ivy2/cache/scala_2.10/sbt_0.13/com.dwijnand/sbt-compat/docs/sbt-compat-1.2.6-javadoc.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.dwijnand/sbt-compat/scala_2.10/sbt_0.13/1.2.6/docs/sbt-compat-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.mdr" name="ascii-graphs_2.10">
+			<revision name="0.0.3" status="release" pubdate="20130509131044" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/mdr/ascii-graphs" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2792" time="0" location="/Users/crispy/.ivy2/cache/com.github.mdr/ascii-graphs_2.10/ivy-0.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/mdr/ascii-graphs_2.10/0.0.3/ascii-graphs_2.10-0.0.3.pom"/>
+				<caller organisation="net.virtual-void" name="sbt-dependency-graph" conf="default, compile, runtime, master" rev="0.0.3" rev-constraint-default="0.0.3" rev-constraint-dynamic="0.0.3" callerrev="0.9.1"/>
+				<artifacts>
+					<artifact name="ascii-graphs_2.10" type="jar" ext="jar" status="no" details="" size="466397" time="0" location="/Users/crispy/.ivy2/cache/com.github.mdr/ascii-graphs_2.10/jars/ascii-graphs_2.10-0.0.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/mdr/ascii-graphs_2.10/0.0.3/ascii-graphs_2.10-0.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="uk.gov.hmrc" name="sbt-bobby">
+			<revision name="0.33.0" status="integration" pubdate="20180711123040" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/hmrc/sbt-bobby" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2137" time="0" location="/Users/crispy/.ivy2/cache/scala_2.10/sbt_0.13/uk.gov.hmrc/sbt-bobby/ivy-0.33.0.xml" searched="false" origin-is-local="false" origin-location="https://dl.bintray.com/hmrc/sbt-plugin-releases/uk.gov.hmrc/sbt-bobby/scala_2.10/sbt_0.13/0.33.0/ivys/ivy.xml"/>
+				<caller organisation="org.scala-sbt" name="global-plugins" conf="compile" rev="0.33.0" rev-constraint-default="0.33.0" rev-constraint-dynamic="0.33.0" callerrev="0.0" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
+				<artifacts>
+					<artifact name="sbt-bobby" type="jar" ext="jar" status="no" details="" size="353968" time="0" location="/Users/crispy/.ivy2/cache/scala_2.10/sbt_0.13/uk.gov.hmrc/sbt-bobby/jars/sbt-bobby-0.33.0.jar">
+						<origin-location is-local="false" location="https://dl.bintray.com/hmrc/sbt-plugin-releases/uk.gov.hmrc/sbt-bobby/scala_2.10/sbt_0.13/0.33.0/jars/sbt-bobby.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.8.1" status="release" pubdate="20151002115804" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-convert/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6434" time="0" location="/Users/crispy/.ivy2/cache/org.joda/joda-convert/ivy-1.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.8.1/joda-convert-1.8.1.pom"/>
+				<caller organisation="uk.gov.hmrc" name="sbt-bobby" conf="compile" rev="1.8.1" rev-constraint-default="1.8.1" rev-constraint-dynamic="1.8.1" callerrev="0.33.0"/>
+				<artifacts>
+					<artifact name="joda-convert" type="jar" ext="jar" status="no" details="" size="111521" time="0" location="/Users/crispy/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.8.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.8.1/joda-convert-1.8.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.9.1" status="release" pubdate="20151112120326" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6595" time="0" location="/Users/crispy/.ivy2/cache/joda-time/joda-time/ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.1/joda-time-2.9.1.pom"/>
+				<caller organisation="uk.gov.hmrc" name="sbt-bobby" conf="compile" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="0.33.0"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="625986" time="0" location="/Users/crispy/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.1/joda-time-2.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.10" status="release" pubdate="20141106141535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10608" time="0" location="/Users/crispy/.ivy2/cache/commons-codec/commons-codec/ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
+				<caller organisation="uk.gov.hmrc" name="sbt-bobby" conf="compile" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="0.33.0"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="284184" time="0" location="/Users/crispy/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.6" status="release" pubdate="20150918103528" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.6/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2487" time="0" location="/Users/crispy/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6.pom"/>
+				<caller organisation="com.github.mdr" name="ascii-graphs_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.0.3"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7132001" time="0" location="/Users/crispy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.6.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
